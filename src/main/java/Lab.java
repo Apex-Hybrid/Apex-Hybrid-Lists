@@ -68,8 +68,8 @@ public class Lab {
      * @param index represents the index of the element we would like to retrieve.
      * @return the int at the location in 'list' represented by 'index'.
      */
-    public int get(List<Integer> list, int index){
-        return list.get(index);
+    public int get(List<Integer> list, int i){
+        return list.get(i);
     }
 
     /**
