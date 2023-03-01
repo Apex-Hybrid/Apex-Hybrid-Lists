@@ -29,8 +29,9 @@ public class Lab {
      *
      * @return a List<Integer> object.
      */
-    List<Integer> list = new ArrayList<>();
+    
     public List<Integer> createList(){
+        List<Integer> list = new ArrayList<>();
         return list;
     }
 
@@ -69,7 +70,7 @@ public class Lab {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int i){
-        return list.get(i);
+         return list.get(i);
     }
 
     /**
